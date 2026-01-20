@@ -43,7 +43,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Configuration 
-API_KEY = "AIzaSyC5sBlExjdapX0JcEMFOY14lu_XAwASDM0"
+API_KEY = "xxxxxx"
 API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={API_KEY}"
 DEFAULT_TOP_K = 3
 
